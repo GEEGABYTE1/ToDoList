@@ -41,10 +41,11 @@ export default function ToDoList (props) {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form className="Form" onSubmit={handleSubmit}>
                 <label>
                     <input value={userInput} type="text" onChange={handleUserInput}></input>
                 </label>
+                <br />
                 <button type="submit">Add Item</button>
             </form>
             
