@@ -2,12 +2,20 @@
 .ItemBox {
     display: inline-block;
     width: 350px;
-    height: 160px;
+    height: auto;
     padding: 10px;
     border: 2px solid black;
     margin: 0;
     background-color: #90a8ed;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 10px 10px 0px 10px black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.ItemBox h1{
+    position: relative;
+    word-wrap: break-word;
 }
