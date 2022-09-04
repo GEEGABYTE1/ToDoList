@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import './ToDoList.css'
 
 export default function ToDoList (props) {
 
@@ -32,7 +33,7 @@ export default function ToDoList (props) {
     
 
     const SampleTopics = Object.entries(todoDict).map( ([item, itemStatus]) =>
-        <div>
+        <div className="ItemBox">
             <h1>{item}</h1>
             <button onClick={() => filter(item)}>Complete</button>
         </div>
